@@ -1,6 +1,13 @@
+var catArray = [
+{name: "Name: cat1",food: "Favourite food: z", url: "http://www.lolcats.com/images/u/08/47/lolcatsdotcom4i1bx7w5csp6za6f.jpg"}, {name: "Name: cat2",food: "Favourite food: q", url: "http://www.lolcats.com/images/u/08/47/lolcatsdotcom4i1bx7w5csp6za6f.jpg"}, {name: "Name: PuddyCat",food: "Favourite food: milk", url: "http://www.lolcats.com/images/u/08/47/lolcatsdotcom4i1bx7w5csp6za6f.jpg"}
+]
 var app = function(){
-  
-  addCat("name: PuddyCat", "food: milk", "http://www.lolcats.com/images/u/08/47/lolcatsdotcom4i1bx7w5csp6za6f.jpg")
+
+  for(var i = 0;i < catArray.length; i++){
+    addCat(catArray[i].name, catArray[i].food, catArray[i].url)
+  }
+
+  // addCat("name: PuddyCat", "food: milk", "http://www.lolcats.com/images/u/08/47/lolcatsdotcom4i1bx7w5csp6za6f.jpg")
   // var ul = document.createElement('ul')
   // ul.classList.add('cat')
 
