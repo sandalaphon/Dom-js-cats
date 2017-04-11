@@ -1,5 +1,5 @@
 var catArray = [
-{name: "Name: cat1",food: "Favourite food: z", url: "http://www.lolcats.com/images/u/08/47/lolcatsdotcom4i1bx7w5csp6za6f.jpg"}, {name: "Name: cat2",food: "Favourite food: q", url: "http://www.lolcats.com/images/u/08/47/lolcatsdotcom4i1bx7w5csp6za6f.jpg"}, {name: "Name: PuddyCat",food: "Favourite food: milk", url: "http://www.lolcats.com/images/u/08/47/lolcatsdotcom4i1bx7w5csp6za6f.jpg"}
+{name: "Name: Boba",food: "Favourite food: Sock fluff", url: "http://66.media.tumblr.com/d1f01bbe0150fda0c40d2151c5eaeac8/tumblr_odlqqskjj61v9cejwo1_400.jpg"}, {name: "Name: Barnaby",food: "Favourite food: Tuna", url: "http://www.lolcats.com/images/u/11/45/lolcatsdotcom3gp6wm7dw3jihq9t.jpg"},  {name: "Name: Max",food: "Favourite food: Whiskas", url: "http://66.media.tumblr.com/7c5784ea89369c780e782bf10c60315a/tumblr_npb0hlYwhV1u63jaco1_1280.jpg"},{name: "Name: PuddyCat",food: "Favourite food: milk", url: "http://www.lolcats.com/images/u/08/47/lolcatsdotcom4i1bx7w5csp6za6f.jpg"}
 ]
 var app = function(){
 
@@ -7,28 +7,6 @@ var app = function(){
     addCat(catArray[i].name, catArray[i].food, catArray[i].url)
   }
 
-  // addCat("name: PuddyCat", "food: milk", "http://www.lolcats.com/images/u/08/47/lolcatsdotcom4i1bx7w5csp6za6f.jpg")
-  // var ul = document.createElement('ul')
-  // ul.classList.add('cat')
-
-  // var li1 = document.createElement("li")
-  // var li2 = document.createElement("li")
-  // var li3 = document.createElement("li")
-  // li1.innerText = "Name: PuddyCat"
-  // li2.innerText = "Favourite food: milk"
-  
-  // var image = document.createElement("img")
-  // image.src = "http://www.lolcats.com/images/u/08/47/lolcatsdotcom4i1bx7w5csp6za6f.jpg" 
-  // image.width = 500
-  // li3.appendChild(image)
-
-  // ul.appendChild(li1)
-  // ul.appendChild(li2)
-  // ul.appendChild(li3)
-
-  // var cats  = document.querySelector("#cats")
-  // cats.appendChild(ul)
-  
 }
 
 window.onload = app
